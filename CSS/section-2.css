@@ -1,0 +1,27 @@
+/* SECTION 4 */
+.section-2{
+    padding: 4.2rem 0 3.2rem 0;
+}
+
+.fetured-in{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #999;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.75;
+    margin-bottom: 2.4rem;
+}
+
+.img-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.img-logo img{
+    height: 3rem;
+    filter: brightness(0);
+    opacity: 50%;
+}

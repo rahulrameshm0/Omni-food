@@ -23,8 +23,8 @@
 }
 
 .head-2{
-    font-size: 4.4rem;
-   margin-bottom: 9.6rem;
+    font-size: 4.2rem;
+    margin-bottom: 9.6rem;
 }
 
 .step-img-box{
@@ -76,6 +76,7 @@
     font-size: 3rem;
     line-height:1.2;
     margin-bottom: 3.2rem;
+   
 }
 
 .step-description{
@@ -87,14 +88,16 @@
 
 /* SECTION-4 */
 
-
-.sample-heading, .head-2{
+  .text--align{
     text-align: center;
-}
+} 
 
 .cards{
-     gap: 8.6rem; 
-}   
+    gap: 6.2rem; 
+    align-items: center;
+    justify-content: center;
+    padding: 4.2rem 4.8rem;
+}    
 
 .cards img{
     width: 100%;
@@ -108,31 +111,30 @@
 }
 
 .vegan{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
     background-color: #51cf66;
     border-radius: 1.2rem;
-    padding: 0.2rem 1rem;
+     padding: 0.2rem 1rem;
 }
 
 .veg{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
     background-color: #51cf66;
     border-radius: 1.2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 1.2rem;
 }
 
 .paleo{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
     background-color: rgb(232, 238, 60);
     border-radius: 1.2rem;
      padding: 0.2rem 1rem; 
-    margin: 0.4rem;
 }
 
 
@@ -153,12 +155,24 @@
    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.1);
    border-radius: 9px;
    overflow: hidden;
+   transition: all 0.4s;
 }
 
 .card-2{
     box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.1);
     border-radius: 9px;
     overflow: hidden;
+    transition: all 0.4s;
+ }
+
+ .card-1:hover{
+    transform: translateY(-1.2rem);
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.1);
+ }
+
+ .card-2:hover{
+    transform: translateY(-1.2rem);
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.1);
  }
 
  .meal-tags{
@@ -166,7 +180,7 @@
  }
 
  .meal-content{
-     padding: 4.2rem 4.8rem; 
+     padding:4.2rem 4.8rem; 
  }
 
 .japanese-gyozas{
@@ -181,7 +195,7 @@
 
 .Japanese-Gyozas-list{
     display: flex;
-    align-items: center;
+     align-items: center; 
     gap: 1.2rem;
     font-size: 1.8rem;
 }
@@ -224,12 +238,12 @@ strong{
 .diet-list{
     display: flex;
     align-items: center;
-    gap: 1.6rem;
+     gap: 1.6rem;
 }
 
 .list-head{
     font-size: 3rem;
-    margin-bottom:2.8rem;
+     margin-bottom:2.8rem;
 }
 
 .mark-icon{
@@ -238,10 +252,30 @@ strong{
     color: #e67e22;
 }
 
-.all-meals a{
+.all-meals{
+    text-align: center;
+}
+
+.link:link,
+.link:visited{
+    display: inline-block;
     color: #e67e22;
+    font-size: 1.8rem;
+    text-decoration:none;   
+    padding-bottom: 1px;
+    border-bottom: 1px solid currentColor;
+    transition: all 0.3s;
+     margin-bottom: 9.4rem; 
+}
+
+.link:hover,
+.link:active{
+   color: #cf711f;  
+   border-bottom: 1px solid transparent;
    
 }
+
 .margin--bottom-md{
-    margin-bottom: 4.8rem !important;
+    margin-bottom: 4.8rem !important; 
 }
+

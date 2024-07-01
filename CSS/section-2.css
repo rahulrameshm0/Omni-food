@@ -3,8 +3,13 @@
     padding: 4.2rem 0 3.2rem 0;
 }
 
-.fetured-in{
-    font-size: 1.2rem;
+.features{
+    font-size:1.4rem;
+    font-weight:500;
+}
+
+.featured-in{
+    font-size: 1rem;
     text-transform: uppercase;
     color: #999;
     text-align: center;

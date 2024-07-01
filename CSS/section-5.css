@@ -1,2 +1,55 @@
 /* SECTION 5 */
 
+/* COUSTAMER COMMENT */
+
+.section-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fdf2e9;
+}
+
+.testimonials{
+    padding: 9.6rem; 
+   
+}
+
+.coustamers{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+     row-gap: 4.8rem;
+     column-gap: 8rem;
+    
+}
+
+.coustamer-comment{
+  font-size:1.8rem ;  
+  line-height: 1.8;
+   margin-bottom: 1.2rem; 
+}
+
+.coustamer-img{
+    border-radius: 50%;
+    width: 6.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.coustamer-name{
+    font-size: 1.6rem;
+    color: #555;
+} 
+
+/* GALLARY */
+
+  .gallary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+ .gallary img{
+    display: inline;
+     width: 100%;  
+} 
+
+figure{
+   
+} 

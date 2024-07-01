@@ -4,8 +4,9 @@
 
 .section-5{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 55fr 45fr;
     background-color: #fdf2e9;
+    align-items: center;
 }
 
 .testimonials{
@@ -35,22 +36,30 @@
 
 .coustamer-name{
     font-size: 1.6rem;
-    color: #555;
+    color: #6f6f6f;
 } 
 
-/* GALLARY */
+/* GALLERY */
 
-  .gallary{
+  .gallery{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.6rem;
-  }
+    grid-template-columns:repeat(3, 1fr);
+    gap: 1.6rem; 
+    padding: 1.6rem; 
+    
+  } 
 
- .gallary img{
-    display: inline;
-     width: 100%;  
+.gallery-item img{
+     display: block; 
+      width: 100%;   
+      transition:all  0.4s; 
 } 
+ 
 
-figure{
-   
-} 
+.gallery-item{
+    overflow: hidden;
+}
+
+.gallery-item img:hover{
+  transform: scale(1.1);
+}

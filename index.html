@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/section-5.css">
     <link rel="stylesheet" href="CSS/section-6.css">
     <link rel="stylesheet" href="CSS/section-7.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +21,9 @@
 <body>
     <main>
     <header class="omnifood-nav">
-            <p><img src="img/logos/omnifood-logo.png" alt="omnifood-logo"></p>
+            <a href="#">
+                <img class="omnifood-logo" src="img/logos/omnifood-logo.png" alt="omnifood-logo">
+            </a>
 
             <nav class="nav-bar">
                 <ul class="nav-bar-list">
@@ -473,6 +476,64 @@
             </div>
         </section>
     </main>
+        
+    <footer class="footer">
+            <div class="container grid grid--footer">
+                <div class="logo">
+                    <a href="#">
+                        <img class="omnifood-logo" src="img/logos/omnifood-logo.png" alt="omnifood-logo">
+                    </a>
+
+                     <ul class="icons">
+                        <li><a href="https://www.facebook.com/"><ion-icon class="logo-icon" name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="https://www.instagram.com/"> <ion-icon class="logo-icon" name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="https://x.com/?lang=en"> <ion-icon class="logo-icon" name="logo-twitter"></ion-icon></a></li>
+                        
+                    </ul>
+
+                    <p class="copyright">Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.</p>
+                </div>
+
+                <div class="contact-col">
+                  <p class="footer-heading">Contact Us</p>
+
+                  <address class="contact">
+                    <p class="street">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+                    <a href="tel:415-201-6370" class="footer-link">415-201-6370</a><br>
+                    <a href="mailto:hello@omnifood.com" class="footer-link">hello@omnifood.com</a>
+                  </address>
+                </div>
+
+                <nav class="account-col">
+                    <p class="footer-heading">Account</p>
+                    <ul class="nav-list">
+                        <li><a class="footer-link" href="">Create an acount</a></li>
+                        <li><a class="footer-link" href="">Log in</a></li>
+                        <li><a class="footer-link" href="">iOS app</a></li>
+                        <li><a class="footer-link" href="">Android app</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="company-col">
+                        <p class="footer-heading">Company</p>
+                        <ul class="nav-list">
+                            <li><a class="footer-link" href="">About Omnifood</a></li>
+                            <li><a class="footer-link" href="">For Business</a></li>
+                            <li><a class="footer-link" href="">Cooking partners</a></li>
+                            <li><a class="footer-link" href="">Careers</a></li>
+                        </ul>
+                </nav>
+
+                <nav class="resources-col">
+                    <p class="footer-heading">Resources</p>
+                    <ul class="nav-list">
+                        <li><a class="footer-link" href="">Recipe directory</a></li>
+                        <li><a class="footer-link" href="">Help center</a></li>
+                        <li><a class="footer-link" href="">Privacy & terms</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </footer>
     
     
 </body>

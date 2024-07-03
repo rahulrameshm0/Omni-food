@@ -24,9 +24,9 @@
     
     .grid{
         display: grid;
-         row-gap: 9.6rem;
+        row-gap: 9.6rem;
         column-gap: 6.4rem; 
-         margin-bottom: 6.6rem;  
+        /* margin-bottom: 3.6rem;   */
     }
     
     .grid--2-cols {
@@ -39,6 +39,10 @@
       
       .grid--4-cols {
         grid-template-columns: repeat(4, 1fr);
+      }
+
+      .grid--5-cols {
+        grid-template-columns: repeat(5, 1fr);
       }
       
 
@@ -106,7 +110,7 @@
      background-color: #cf711f;
     }
     
-    .omnifood-nav img{
+    .omnifood-logo{
         height: 2.2rem;
     }
     
@@ -213,3 +217,5 @@
     strong{
         color:  #e67e22;
     }
+
+    

@@ -1,0 +1,89 @@
+.footer{
+    padding:12.8rem 0;
+    border-top: 1px solid #eee;
+}
+
+.grid--footer{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.omnifood-logo{
+    margin-bottom: 3.2rem; 
+}
+
+.copyright{
+    font-size: 1.4rem;
+    color: #767676;
+    line-height: 1.6;
+    margin-top: auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+     display: flex;  
+     align-items: center;
+     gap: 2.4rem;
+     list-style: none;
+}
+
+.logo-icon{
+    width: 2.4rem;
+    height:2.4rem;
+    color: #777;
+    margin-bottom: 4.2rem;  
+}
+
+.logo-icon:hover,
+.logo-icon:active{
+    transition: all 0.3s;
+   color: #555;
+}
+
+
+.footer-heading{
+    font-size: 1.8rem; 
+    color: #767676;
+    margin-bottom: 4rem;
+    font-weight: 500;
+}
+
+.footer-link:link,
+.footer-link:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active{
+    color: #555;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    list-style: none;
+}
+
+.contact{
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.street{
+    margin-bottom: 2.4rem;
+}

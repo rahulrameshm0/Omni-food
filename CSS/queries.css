@@ -1,0 +1,125 @@
+/********************
+    below 1344px (small desktop)
+  *******************/
+
+@media (max-width:84em) {
+    .hero{
+        max-width: 120rem;
+    }
+
+    .primary{
+        font-size: 4.4rem;
+    }  
+
+    .gallery{
+        grid-template-columns:repeat(2, 1fr);
+      } 
+}
+
+/********************
+    below 1200px (Landscape Tablets)
+  *******************/
+
+@media (max-width:75em) {
+    html{
+       font-size: 56.25%;
+    }
+
+     .grid{
+        row-gap: 6.6rem;
+        column-gap: 4.2rem;
+    } 
+
+     .sample-heading{
+        font-size:2.4rem;
+    } 
+
+     .head-2{
+        font-size:  3.6rem;
+    }  
+
+    .omnifood-nav{
+        padding: 0 3.2rem;
+    } 
+
+    .hero{
+       gap: 4.8rem;
+    }
+
+    .nav-bar-list{
+         gap: 3.2rem;
+    }
+
+    .testimonials{
+        padding: 9.6rem 3.2rem;
+    } 
+    
+}
+
+/*************************  
+    bellow 1072px (for tablets)
+***************************/
+
+@media(max-width:67em){
+   html{
+/* 8/16 = 0.5 = 50% */
+    font-size: 50%;
+}
+
+.hero{
+    grid-template-columns: 1fr; 
+     gap: 6.4rem; 
+}
+
+.hero-text-box,
+.hero-img-box{
+    text-align: center;
+}
+
+.hero-text-box{
+    padding:0 8rem ;
+   
+}
+
+.hero img{
+    width: 60% ;
+} 
+
+.coustamer-delevery{
+ justify-content: center;
+ margin-bottom: 3.2rem;
+}
+
+.img-logo img{
+    height: 2.4rem;
+}
+
+.step-number{
+     font-size:7.4em; 
+}
+
+
+.meal-content{
+    padding:2.4rem 3.2rem 3.2rem 3.2rem;  
+}
+.section-5{
+    grid-template-columns: 1fr;
+}
+
+.gallery{
+    grid-template-columns:repeat(6, 1fr);
+}
+
+.cta{
+    grid-template-columns: 3fr 2fr;
+}
+
+.cta-form{
+    grid-template-columns: 1fr;
+}
+
+.btn-form{
+    margin-top: 1.2rem;
+}
+
+}

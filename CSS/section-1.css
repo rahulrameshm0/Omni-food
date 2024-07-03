@@ -57,12 +57,12 @@
         color: #555;
     }
     
-    
-    .section-hero{
-      padding: 6.6rem 5rem; 
-     background-color: #fdf2e9;
-    }
-    
+  
+.section-hero{
+  padding: 6.6rem 5rem; 
+ background-color: #fdf2e9;
+}
+
     html{
          font-size: 62.5%; 
     }
@@ -72,15 +72,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 3.2rem 5rem; 
+        height: 9.6rem;
+        padding:0 4.8rem; 
+        /*  3.2rem 5rem */
     }
+    
     
     
     .nav-bar-list{
         display: flex;
         align-items: center ;
         list-style-type: none;
-         gap: 3.2rem; 
+         gap: 4.8rem; 
     } 
     
     .main-nav:link,
@@ -117,11 +120,11 @@
     .hero{
         max-width: 130rem;
         margin: 0 auto; 
-        /* display: grid;
-        grid-template-columns: 1fr 1fr; */
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
         align-items: center;
         gap: 9.6rem;
+        padding: 0 3.2rem;
     }
     
     .hero img{
@@ -201,7 +204,7 @@
     
     .coustamer-imgs img{
         width:4rem;
-        width:4rem;
+        height:4rem;
         border-radius: 50%;
         margin-right: -1.6rem;
         border: 3px solid #fdf2e9;
@@ -214,8 +217,8 @@
         color: #555;
     }
     
-    strong{
-        color:  #e67e22;
+    .strong{
+        color:#e67e22;
     }
 
     

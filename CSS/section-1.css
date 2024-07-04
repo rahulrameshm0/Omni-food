@@ -55,21 +55,41 @@
         line-height: 1;
         font-weight: 400;
         color: #555;
+        overflow-x:hidden ;
     }
     
-  
-.section-hero{
-  padding: 6.6rem 5rem; 
- background-color: #fdf2e9;
-}
+    .btn-mobile-nav{
+        border: none;
+        background: none;
+        cursor: pointer;
+
+        display: none;
+    }
+
+    .mobile-icon{
+        width: 4.8rem;
+        height: 4.8rem;
+        color: #333;
+    }
+
+    .mobile-icon[name="close-outline"]{
+        display: none;
+    }
+
+    .section-hero{
+        padding: 6.6rem 5rem; 
+        background-color: #fdf2e9;
+    }
 
     html{
          font-size: 62.5%; 
+         overflow: hidden;
     }
     
     .omnifood-nav{
         background-color: #fdf2e9;
         display: flex;
+        position: relative;
         justify-content: space-between;
         align-items: center;
         height: 9.6rem;

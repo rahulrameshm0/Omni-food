@@ -224,7 +224,7 @@
       grid-template-columns:1fr 1fr 1fr;
     } 
     
-     .logo, .contact{
+     .logo, .contact-col{
       grid-column: span 3;
     }  
 
@@ -347,7 +347,6 @@
       grid-row: 1;
     }
 
-   
   }
   
   /* 

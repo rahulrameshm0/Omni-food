@@ -212,24 +212,28 @@
     .pricing-plan {
       width: 100%;
     }
-    .pricing-plan-2{
-        width: 100%;
+
+   .nav-col{
+     grid-row: 1;
+     grid-column: span 2;
+     margin-bottom: 3.2rem;  
+
+   }
+
+     .grid--footer{
+      grid-template-columns:1fr 1fr 1fr;
     } 
-
-    .grid--footer{
-      grid-template-columns: repeat(6, 1fr);
-    }
-      
-
-    .contact-col .contact{
-      grid-column: span 3;
-    }
     
-    .account-col, .company-col, .resources-col{
+     .logo, .contact{
+      grid-column: span 3;
+    }  
+
+    .nav-col{
       grid-row: 1;
       grid-column: span 2;
-      margin-bottom: 3.2rem; 
     }
+
+
   }
 
 
@@ -239,9 +243,54 @@
 
 @media (max-width:34rem){
     .grid--2-cols,
-    .grid--3-cols{
+    .grid--3-cols,
+    .grid--4-cols{
       grid-template-columns: 1fr;
     }
+
+
+    /************************ 
+      PRICE TAG
+    ************************/
+
+    .pricing-plan {
+      width: 100%;
+      padding: 2.4rem;
+    }
+    
+    .section-6 {
+      padding: 4.8rem 2.4rem;
+    }
+
+
+    .pricing-plan--complete::after {
+      top: 5%;
+      right: -10%;
+      font-size: 1.2rem;
+      padding: 0.6rem 4rem;
+    }
+
+
+
+    .btn {
+      padding: 1.2rem 2.4rem;
+      font-size: 1.6rem;
+    }
+
+
+    .diet-list {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+
+
+    .mark-icon {
+      flex-shrink: 0;
+    }
+
+/******************************** ***********************************/
 
     .btn, .btn:link, .btn:visited {
       padding: 2.4rem 1.6rem;
@@ -288,6 +337,17 @@
       gap: 1.2rem;
       
     } 
+
+    .cta{
+      grid-template-columns: 1fr;
+    }
+
+    .cta-img{
+      height: 32rem;
+      grid-row: 1;
+    }
+
+   
   }
   
   /* 
@@ -345,10 +405,5 @@
   }
    */
 
-  @media (max-width: 59em) {
-    .no-flexbox-gap .main-nav-list li:not(:last-child) {
-      margin-right: 0;
-      margin-bottom: 4.8rem;
-    }
-  }
+  
   

@@ -93,9 +93,9 @@
       height: 2.4rem;
     }
   
-    .step-number {
+     .step-number {
       font-size: 7.4rem;
-    }
+    } 
   
     .step-heading {
       padding: 2.4rem 3.2rem 3.2rem 3.2rem;
@@ -191,7 +191,7 @@
   }
   
   /********************************/
-  /* BELOW: 944px / 16 px = 44em (smaller tablets) */
+  /* BELOW: 704px / 16 px = 44em (smaller tablets) */
   /********************************/
   
   @media (max-width:44em) {
@@ -200,10 +200,10 @@
       grid-template-columns: repeat(2, 1fr);
     }
   
-    .diet-list-items {
+    .list-items{
       grid-column: 1/-1;
       justify-self: center;
-    }
+     }
   
     .head-2 {    
       margin-bottom: 4.8rem;
@@ -238,7 +238,7 @@
 
 
     /********************** 
-      bellow 544px (Phone)
+     544/16 = 34  bellow 544px (Phone)
     ***********************/
 
 @media (max-width:34rem){
@@ -254,7 +254,7 @@
     ************************/
 
     .pricing-plan {
-      width: 100%;
+       width: 100%; 
       padding: 2.4rem;
     }
     
@@ -272,30 +272,32 @@
 
 
 
-    .btn {
+   .btn {
       padding: 1.2rem 2.4rem;
       font-size: 1.6rem;
     }
 
-
-    .diet-list {
+    
+     .diet-list {
       display: flex;
       align-items: center;
       gap: 1rem;
-    }
+    } 
 
 
 
     .mark-icon {
       flex-shrink: 0;
-    }
+    } 
 
 /******************************** ***********************************/
 
-    .btn, .btn:link, .btn:visited {
+    .btn, 
+    .btn:link, 
+    .btn:visited {
       padding: 2.4rem 1.6rem;
     }
-  
+
     .section-hero {
       padding: 2.4rem 0 6.4rem 0;
     }
@@ -322,11 +324,12 @@
 
     .step-heading{
       font-size: 2rem;
-    }
+    } 
 
-    .step-img-box-img{
+    .step-img-box{
       transform: translateY(2.4rem);
     }
+    
     .coustamers{
       grid-template-columns: 1fr;
     }

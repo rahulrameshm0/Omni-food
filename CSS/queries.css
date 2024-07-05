@@ -243,6 +243,10 @@ Mobile Navigation
     grid-template-columns: 1fr;
   }
 
+  .primary{
+    font-size: 3.2rem;
+  }
+
   .grid{
     row-gap: 4.8 rem;
   }

@@ -15,22 +15,23 @@
 .pricing-plan--starter{
      justify-self:end; 
      border:2px solid #fdf2e9;
-     padding:4.8rem;
+     padding:4.6rem;
+   
 }
 
   .grid{
     gap: 6.2rem;
 } 
 
-.pricing-plan-1{
-     border-radius:1.2rem; 
+.pricing-plan{
+     border-radius:11px; 
      width: 75%;
     }
 
 
 .pricing-plan-header{
     text-align: center;
-    margin-bottom: 4.2rem;  
+    margin-bottom: 4.8rem;  
 }
 
 
@@ -39,12 +40,12 @@
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 600;
-    line-height: 1.6rem;
+    letter-spacing: 0.75;
     margin-bottom: 3.2rem;
 }
 
 .price{
-    font-size:6.8rem;
+    font-size:6.2rem;
     font-weight: 600;
     margin-bottom: 1.6rem;
     color: #333;
@@ -53,29 +54,24 @@
 .per-month{
     font-size: 1.6rem;
     line-height: 1.8rem;
-    color: #777;
-    letter-spacing: 0.75;
+    color: #767676;
 }
 
 .price span{
     font-size: 3rem;
     margin-right: 0.8rem;
+    font-weight: 500;
 }
 
 /* PRICING TAG 2 */
 
-.pricing-plan-2{
-    background-color: #fdf2e9;
-    border-radius:1.2rem;
-    width: 75%;
-   
-} 
-
 .pricing-plan--complete{
-    padding: 4.8rem;
     position: relative; 
     overflow: hidden;
-}
+    border:2px solid #fdf2e9;
+    padding: 4.8rem;
+    border-radius:1.2rem;
+} 
 
 .pricing-plan--complete::after{
     content:"Best value";
@@ -100,10 +96,10 @@
 .btn-price-tag{
     text-align: center;
     margin-top: 4.2rem;
-    color: #fdf2e9;
+   
 } 
 
-/* FEATURES */
+/* ICON*/
 
 
 .feature-icon{
@@ -127,7 +123,6 @@
     font-size: 1.8rem;
     line-height: 1.8;
 }
-
 .price-description{
     margin-bottom: 9.6rem;
 }

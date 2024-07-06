@@ -184,7 +184,53 @@
       .main-nav:visited{
       font-size: 3rem;
     } 
+
+    /********************** PRICING PLAN ***********************************/
+
+
+    .pricing-plan {
+      width: 100%; 
+     padding: 2.4rem;
+   }
+   
+   .section-6 {
+     padding: 4.8rem 2.4rem;
+   }
+
+
+   .pricing-plan--complete::after {
+     top: 5%;
+     right: -10%;
+     font-size: 1.2rem;
+   }
+
+
+
+  .btn {
+     padding: 1.2rem 2.4rem;
+     font-size: 1.6rem;
+   }
+
+   
+    .diet-list {
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+   } 
+
+
+
+    .mark-icon {
+     flex-shrink: 0;
+   }   
+
+
+/*************************  *********************************/
   }
+
+
+
+
   
   /********************************/
   /* BELOW: 704px / 16 px = 44em (smaller tablets) */
@@ -195,6 +241,49 @@
     .grid--4-cols {
       grid-template-columns: repeat(2, 1fr);
     }
+
+/********************** PRICING PLAN ***********************************/
+
+
+    .pricing-plan {
+      width: 100%; 
+     padding: 2.4rem;
+   }
+   
+   .section-6 {
+     padding: 4.8rem 2.4rem;
+   }
+
+
+   .pricing-plan--complete::after {
+     top: 5%;
+     right: -10%;
+     font-size: 1.2rem;
+     padding: 0.6rem 4rem;
+   }
+
+
+
+  .btn {
+     padding: 1.2rem 2.4rem;
+     font-size: 1.6rem;
+   }
+
+   
+    .diet-list {
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+   } 
+
+
+
+    .mark-icon {
+     flex-shrink: 0;
+   }   
+
+
+/*************************  *********************************/
   
     .list-items{
       grid-column: 1/-1;
@@ -249,7 +338,7 @@
       PRICE TAG
     ************************/
 
-    .pricing-plan {
+     .pricing-plan {
        width: 100%; 
       padding: 2.4rem;
     }
@@ -282,9 +371,9 @@
 
 
 
-    .mark-icon {
+     .mark-icon {
       flex-shrink: 0;
-    } 
+    }   
 
 /******************************** ***********************************/
 
@@ -298,10 +387,10 @@
       padding: 2.4rem 0 6.4rem 0;
     }
   
-    .hero {
+     .hero {
       padding: 0 3.2rem;
-    }
-  
+    } 
+
      .hero-img-box {
       width: 80%;
     } 

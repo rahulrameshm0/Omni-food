@@ -199,7 +199,7 @@
 
 
    .pricing-plan--complete::after {
-     top: 5%;
+     top: 9%;
      right: -10%;
      font-size: 1.2rem;
    }

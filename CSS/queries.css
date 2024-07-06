@@ -1,5 +1,7 @@
 
-
+/********************* 
+  1334px / 16 = 84 (smaller laptops) 
+********************/
 
 @media (max-width: 84em) {
     .hero {
@@ -71,23 +73,24 @@
   
     .hero {
       grid-template-columns: 1fr;
-      padding: 0 8rem;
-      gap: 6.4rem;
+       padding: 0 8rem;
+      gap: 6.4rem;   
+      
     }
   
-    .hero-text-box,
-    .hero-img-box {
-      text-align: center;
-    }
-  
-    .hero-img {
+      .hero-text-box,
+      .hero-img-box{
+          text-align: center; 
+      }
+    
+    .hero-img-box{
       width: 60%;
     }
   
-    .coustamer-delevery {
+     .coustamer-delevery {
       justify-content: center;
       margin-top: 3.2rem;
-    }
+    } 
   
     .img-logo img {
       height: 2.4rem;
@@ -306,9 +309,9 @@
       padding: 0 3.2rem;
     }
   
-    .hero-img-box {
+     .hero-img-box {
       width: 80%;
-    }
+    } 
   
     .img-logo img {
       height: 1.2rem;
